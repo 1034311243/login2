@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet("/error")
-public class error extends HttpServlet {
+public class error extends HttpServlet  {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
